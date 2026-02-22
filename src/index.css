@@ -19,7 +19,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-serif);
   font-weight: 400;
 }
@@ -45,11 +50,17 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
   background-color: var(--color-ap-gold);
   color: var(--color-ap-white);
+}
+
+.btn-primary:focus-visible {
+  outline: 2px solid var(--color-ap-gold);
+  outline-offset: 2px;
 }
 
 .btn-secondary {
@@ -65,8 +76,261 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .btn-secondary:hover {
   border-color: var(--color-ap-white);
+}
+
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--color-ap-gold);
+  outline-offset: 2px;
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus ring for form inputs */
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-ap-gold);
+  outline-offset: 2px;
+}
+
+/* Interactive card cursor */
+.service-card {
+  cursor: pointer;
+}
+
+/* Skip to content link for keyboard users */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-ap-white);
+  color: var(--color-ap-black);
+  padding: 0.75rem 1.5rem;
+  z-index: 100;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Footer link focus states */
+footer a:focus-visible {
+  outline: 2px solid var(--color-ap-gold);
+  outline-offset: 2px;
+}
+
+/* ═══════════════════════════════════════════════
+   21st.dev-Inspired Premium Effects
+   ═══════════════════════════════════════════════ */
+
+/* 1. IMMERSE TEXT — Staggered blur-to-sharp character reveal */
+@keyframes immerse-in {
+  0% {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+.immerse-char {
+  display: inline-block;
+  opacity: 0;
+  animation: immerse-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.immerse-word {
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* 2. SHIMMER TEXT — Animated gold gradient sweep */
+@keyframes shimmer-sweep {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg,
+      var(--color-ap-white) 0%,
+      var(--color-ap-gold) 25%,
+      var(--color-ap-white) 50%,
+      var(--color-ap-gold) 75%,
+      var(--color-ap-white) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-sweep 4s linear infinite;
+}
+
+/* 3. COUNTER ANIMATION — Number count-up transition */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.counter-animate {
+  transition: --num 2s ease-out;
+  counter-reset: num var(--num);
+}
+
+.counter-animate::after {
+  content: counter(num);
+}
+
+/* 4. SCROLL REVEAL — Fade up with blur */
+@keyframes reveal-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+    filter: blur(4px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.reveal-section {
+  opacity: 0;
+}
+
+.reveal-section.revealed {
+  animation: reveal-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* 5. CARD HOVER GLOW — Subtle border glow on testimonial/service cards */
+.glow-card {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glow-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 30px rgba(201, 181, 134, 0.08), 0 0 60px rgba(201, 181, 134, 0.04);
+}
+
+/* 6. PARALLAX MODIFIER — Applied via JS scroll handler */
+.parallax-bg {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* 7. GRADIENT LINE — Animated border accent */
+@keyframes gradient-line {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-line {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-ap-gold), transparent);
+  background-size: 200% 200%;
+  animation: gradient-line 3s ease infinite;
+}
+
+/* 8. TEXT REVEAL MASK — Clip-path reveal for headings */
+@keyframes clip-reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.text-reveal {
+  animation: clip-reveal 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 0.3s;
+  clip-path: inset(0 100% 0 0);
+}
+
+/* 9. PULSE RING — For CTA buttons */
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(201, 181, 134, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 0 12px rgba(201, 181, 134, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(201, 181, 134, 0);
+  }
+}
+
+.btn-pulse {
+  animation: pulse-ring 2.5s ease-out infinite;
+}
+
+/* Reduced motion: disable all premium effects */
+@media (prefers-reduced-motion: reduce) {
+  .immerse-char {
+    animation: none;
+    opacity: 1;
+    filter: none;
+  }
+
+  .shimmer-text {
+    animation: none;
+    -webkit-text-fill-color: var(--color-ap-white);
+  }
+
+  .text-reveal {
+    animation: none;
+    clip-path: none;
+  }
+
+  .btn-pulse {
+    animation: none;
+  }
+
+  .glow-card:hover {
+    transform: none;
+  }
 }

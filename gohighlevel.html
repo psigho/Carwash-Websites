@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Austin's #1 Ceramic Coating Specialists. Premium auto detailing, paint correction, and ceramic coating services. 5.0 Stars on Google. Book your appointment today.">
+    <meta name="theme-color" content="#000000">
+    <title>Austin Auto Spa | Premium Auto Detailing &amp; Ceramic Coating</title>
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        :root {
+            --sans: "Inter", system-ui, sans-serif;
+            --serif: "Playfair Display", Georgia, serif;
+            --black: #000;
+            --white: #fff;
+            --gold: #c9b586;
+            --grey: #1b1b1b;
+            --lgrey: #757575
+        }
+
+        body {
+            background: var(--black);
+            color: var(--white);
+            font-family: var(--sans);
+            font-weight: 300;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.6
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--serif);
+            font-weight: 400;
+            line-height: 1.1
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        img {
+            max-width: 100%;
+            display: block
+        }
+
+        ul {
+            list-style: none
+        }
+
+        .micro {
+            font-family: var(--sans);
+            font-size: .65rem;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            font-weight: 500;
+            color: var(--lgrey)
+        }
+
+        .micro-gold {
+            font-family: var(--sans);
+            font-size: .65rem;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            font-weight: 500;
+            color: var(--gold)
+        }
+
+        .wrap {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem
+        }
+
+        @media(min-width:768px) {
+            .wrap {
+                padding: 0 3rem
+            }
+        }
+
+        .btn-p {
+            background: var(--white);
+            color: var(--black);
+            padding: 1rem 2rem;
+            font-size: .875rem;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .3s
+        }
+
+        .btn-p:hover {
+            background: var(--gold);
+            color: var(--white)
+        }
+
+        .btn-s {
+            background: transparent;
+            color: var(--white);
+            border: 1px solid rgba(255, 255, 255, .3);
+            padding: 1rem 2rem;
+            font-size: .875rem;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            font-weight: 500;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .3s
+        }
+
+        .btn-s:hover {
+            border-color: var(--white)
+        }
+
+        .italic {
+            font-style: italic
+        }
+
+        .gold {
+            color: var(--gold)
+        }
+
+        .dim {
+            color: rgba(255, 255, 255, .5)
+        }
+
+        .dim7 {
+            color: rgba(255, 255, 255, .7)
+        }
+
+        .dim4 {
+            color: rgba(255, 255, 255, .4)
+        }
+
+        .dim3 {
+            color: rgba(255, 255, 255, .3)
+        }
+
+        .dim6 {
+            color: rgba(255, 255, 255, .6)
+        }
+
+        .section {
+            padding: 6rem 0
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem
+        }
+
+        .grid3 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem
+        }
+
+        @media(min-width:768px) {
+            .grid2 {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .grid3 {
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 2rem
+            }
+        }
+
+        .card {
+            border: 1px solid rgba(255, 255, 255, .1);
+            padding: 2rem 2.5rem;
+            background: #050505;
+            transition: border-color .2s
+        }
+
+        .card:hover {
+            border-color: rgba(255, 255, 255, .2)
+        }
+
+        .card-pop {
+            border: 1px solid rgba(201, 181, 134, .4);
+            padding: 2rem 2.5rem;
+            background: #050505;
+            position: relative;
+            transition: border-color .2s
+        }
+
+        .card-pop:hover {
+            border-color: rgba(201, 181, 134, .7)
+        }
+
+        .badge {
+            position: absolute;
+            top: -.75rem;
+            left: 2rem;
+            background: var(--gold);
+            color: var(--black);
+            font-size: .65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            padding: .25rem 1rem
+        }
+
+        .icon-circle {
+            width: 3rem;
+            height: 3rem;
+            background: rgba(255, 255, 255, .05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-bottom: 1.5rem
+        }
+
+        .check-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: .75rem;
+            font-size: .875rem;
+            color: rgba(255, 255, 255, .7);
+            margin-bottom: 1rem
+        }
+
+        .check-list svg {
+            flex-shrink: 0;
+            margin-top: .15rem;
+            color: var(--gold)
+        }
+
+        .star {
+            color: var(--gold)
+        }
+
+        /* SVG icons inline */
+        .icon-sm {
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        .icon-md {
+            width: 20px;
+            height: 20px
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            height: 100svh;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-bottom: 6rem
+        }
+
+        @media(min-width:768px) {
+            .hero {
+                padding-bottom: 8rem
+            }
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0
+        }
+
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, #000, rgba(0, 0, 0, .5) 50%, rgba(0, 0, 0, .2))
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 8vw, 6rem);
+            margin-bottom: 1.5rem;
+            max-width: 56rem
+        }
+
+        .hero-sub {
+            color: rgba(255, 255, 255, .6);
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            max-width: 36rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            line-height: 1.7
+        }
+
+        .hero-ctas {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 28rem
+        }
+
+        @media(min-width:640px) {
+            .hero-ctas {
+                flex-direction: row;
+                max-width: none
+            }
+        }
+
+        .hero-ctas .btn-p,
+        .hero-ctas .btn-s {
+            width: 100%;
+            height: 3.5rem
+        }
+
+        @media(min-width:640px) {
+
+            .hero-ctas .btn-p,
+            .hero-ctas .btn-s {
+                width: auto
+            }
+        }
+
+        .hero-note {
+            margin-top: 1.5rem;
+            color: rgba(255, 255, 255, .4);
+            font-size: .875rem;
+            letter-spacing: .05em
+        }
+
+        /* Trust */
+        .trust {
+            border-bottom: 1px solid rgba(255, 255, 255, .1);
+            background: #0a0a0a;
+            padding: 1.5rem 0
+        }
+
+        @media(min-width:768px) {
+            .trust {
+                padding: 2rem 0
+            }
+        }
+
+        .trust-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            font-size: .875rem;
+            letter-spacing: .05em
+        }
+
+        @media(min-width:768px) {
+            .trust-inner {
+                flex-direction: row;
+                justify-content: space-between
+            }
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: .5rem
+        }
+
+        .trust-div {
+            display: none;
+            width: 1px;
+            height: 1rem;
+            background: rgba(255, 255, 255, .2)
+        }
+
+        @media(min-width:768px) {
+            .trust-div {
+                display: block
+            }
+        }
+
+        /* Process numbers */
+        .step-num {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-family: var(--serif);
+            color: rgba(255, 255, 255, .1);
+            margin-bottom: 1rem
+        }
+
+        /* Before/After */
+        .ba-card {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 16/10
+        }
+
+        .ba-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform .7s
+        }
+
+        .ba-card:hover img {
+            transform: scale(1.05)
+        }
+
+        .ba-label {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: .65rem;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            padding: .5rem 1rem
+        }
+
+        .ba-before {
+            background: rgba(255, 255, 255, .1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, .2)
+        }
+
+        .ba-after {
+            background: var(--gold);
+            color: var(--black);
+            font-weight: 700
+        }
+
+        .ba-tag {
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            background: rgba(0, 0, 0, .6);
+            backdrop-filter: blur(8px);
+            font-size: .75rem;
+            padding: .5rem 1rem;
+            border: 1px solid rgba(255, 255, 255, .1)
+        }
+
+        /* Area chips */
+        .area-chip {
+            border: 1px solid rgba(255, 255, 255, .1);
+            padding: .75rem 1rem;
+            font-size: .875rem;
+            color: rgba(255, 255, 255, .6);
+            text-align: center;
+            transition: all .2s
+        }
+
+        .area-chip:hover {
+            color: var(--white);
+            border-color: rgba(255, 255, 255, .3)
+        }
+
+        .area-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: .75rem
+        }
+
+        @media(min-width:640px) {
+            .area-grid {
+                grid-template-columns: 1fr 1fr 1fr
+            }
+        }
+
+        /* Testimonial */
+        .testi-card {
+            border: 1px solid rgba(255, 255, 255, .1);
+            padding: 2rem 2.5rem;
+            background: #050505;
+            display: flex;
+            flex-direction: column
+        }
+
+        .testi-quote {
+            color: rgba(255, 255, 255, .7);
+            font-size: .875rem;
+            line-height: 1.7;
+            flex: 1;
+            margin-bottom: 2rem
+        }
+
+        .testi-footer {
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            padding-top: 1.5rem
+        }
+
+        /* Booking */
+        .booking-box {
+            background: #0a0a0a;
+            border: 1px solid rgba(255, 255, 255, .1);
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+            text-align: left
+        }
+
+        @media(min-width:768px) {
+            .booking-box {
+                padding: 3rem
+            }
+        }
+
+        .booking-line {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            opacity: .5
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: .75rem
+        }
+
+        .form-input {
+            width: 100%;
+            background: var(--black);
+            border: 1px solid rgba(255, 255, 255, .2);
+            color: var(--white);
+            padding: 1rem;
+            outline: none;
+            font-family: var(--sans);
+            font-size: .875rem;
+            appearance: none;
+            border-radius: 0;
+            color-scheme: dark
+        }
+
+        .form-input:focus {
+            border-color: var(--gold)
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem
+        }
+
+        /* Footer */
+        .footer {
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            background: var(--black);
+            padding: 5rem 0 6rem
+        }
+
+        @media(min-width:768px) {
+            .footer {
+                padding: 5rem 0 2.5rem
+            }
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            margin-bottom: 4rem
+        }
+
+        @media(min-width:768px) {
+            .footer-grid {
+                grid-template-columns: 2fr 1fr 1fr
+            }
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            padding-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            font-size: .75rem;
+            color: rgba(255, 255, 255, .4)
+        }
+
+        @media(min-width:768px) {
+            .footer-bottom {
+                flex-direction: row;
+                justify-content: space-between
+            }
+        }
+
+        /* Sticky mobile CTA */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, .9);
+            backdrop-filter: blur(12px);
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            padding: 1rem;
+            z-index: 50;
+            display: flex;
+            gap: .75rem
+        }
+
+        @media(min-width:768px) {
+            .sticky-cta {
+                display: none
+            }
+        }
+
+        .sticky-cta .btn-p {
+            flex: 1;
+            padding: .75rem;
+            font-size: .75rem;
+            height: 3rem
+        }
+
+        .sticky-cta .btn-s {
+            flex: none;
+            padding: .75rem 1rem;
+            height: 3rem
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: .01ms !important;
+                transition-duration: .01ms !important
+            }
+        }
+
+        /* ═══════════════════════════════════════
+           21st.dev-Inspired Premium Effects
+           ═══════════════════════════════════════ */
+
+        /* 1. IMMERSE TEXT — Blur-to-sharp character reveal */
+        @keyframes immerse-in {
+            0% {
+                opacity: 0;
+                filter: blur(12px);
+                transform: translateY(10px)
+            }
+
+            100% {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0)
+            }
+        }
+
+        .immerse-char {
+            display: inline-block;
+            opacity: 0;
+            animation: immerse-in .6s cubic-bezier(.22, 1, .36, 1) forwards
+        }
+
+        /* 2. SHIMMER TEXT — Gold color pulse */
+        @keyframes shimmer-color {
+
+            0%,
+            100% {
+                color: var(--gold)
+            }
+
+            50% {
+                color: #fff
+            }
+        }
+
+        .shimmer-text {
+            color: var(--gold);
+            animation: shimmer-color 3s ease-in-out infinite
+        }
+
+        .shimmer-text .immerse-char {
+            color: inherit
+        }
+
+        /* 3. GLOW CARD — Hover lift + gold glow */
+        .glow-card {
+            position: relative;
+            transition: transform .3s ease, box-shadow .3s ease
+        }
+
+        .glow-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 0 30px rgba(201, 181, 134, .08), 0 0 60px rgba(201, 181, 134, .04)
+        }
+
+        /* 4. SCROLL REVEAL — Fade up with blur */
+        @keyframes reveal-up {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+                filter: blur(4px)
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+                filter: blur(0)
+            }
+        }
+
+        .reveal-section {
+            opacity: 0
+        }
+
+        .reveal-section.revealed {
+            animation: reveal-up .8s cubic-bezier(.22, 1, .36, 1) forwards
+        }
+
+        /* 5. PULSE RING — CTA attention */
+        @keyframes pulse-ring {
+            0% {
+                box-shadow: 0 0 0 0 rgba(201, 181, 134, .4)
+            }
+
+            70% {
+                box-shadow: 0 0 0 12px rgba(201, 181, 134, 0)
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(201, 181, 134, 0)
+            }
+        }
+
+        .btn-pulse {
+            animation: pulse-ring 2.5s ease-out infinite
+        }
+
+        /* 6. GRADIENT LINE — Animated divider */
+        @keyframes gradient-line {
+            0% {
+                background-position: 0% 50%
+            }
+
+            50% {
+                background-position: 100% 50%
+            }
+
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        .gradient-line {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            background-size: 200% 200%;
+            animation: gradient-line 3s ease infinite;
+            margin: 0 auto;
+            max-width: 200px
+        }
+
+        /* 7. TEXT REVEAL MASK */
+        @keyframes clip-reveal {
+            0% {
+                clip-path: inset(0 100% 0 0)
+            }
+
+            100% {
+                clip-path: inset(0 0 0 0)
+            }
+        }
+
+        .text-reveal {
+            animation: clip-reveal 1s cubic-bezier(.22, 1, .36, 1) forwards;
+            animation-delay: .3s;
+            clip-path: inset(0 100% 0 0)
+        }
+
+        /* 8. PARALLAX HERO BG */
+        .parallax-bg {
+            will-change: transform;
+            transform: scale(1.1)
+        }
+
+        /* Reduced motion overrides for 21st effects */
+        @media(prefers-reduced-motion:reduce) {
+            .immerse-char {
+                animation: none;
+                opacity: 1;
+                filter: none
+            }
+
+            .shimmer-text {
+                animation: none;
+                -webkit-text-fill-color: #fff
+            }
+
+            .text-reveal {
+                animation: none;
+                clip-path: none
+            }
+
+            .btn-pulse {
+                animation: none
+            }
+
+            .glow-card:hover {
+                transform: none
+            }
+
+            .reveal-section {
+                opacity: 1
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img class="parallax-bg" id="hero-bg-img"
+                src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&q=80&w=1920"
+                alt="Black luxury sedan with a flawless ceramic coating finish" loading="eager" fetchpriority="high"
+                decoding="async" width="1920" height="1080">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content wrap">
+            <p class="micro-gold text-reveal" style="margin-bottom:1rem">North Austin's Trusted Detail Shop</p>
+            <h1 id="hero-headline">
+                <span class="immerse-line" data-text="Your Car Deserves" data-delay="0.5"></span><br>
+                <span class="italic" style="color:rgba(255,255,255,.9)"><span class="immerse-line"
+                        data-text="Better Than a" data-delay="1.2"></span></span><br>
+                <span class="shimmer-text"><span class="immerse-line" data-text="Car Wash"
+                        data-delay="1.8"></span></span>
+            </h1>
+            <p class="hero-sub">Ceramic coating, paint correction, and hand detailing that protects your investment for
+                years — not days.</p>
+            <div class="hero-ctas">
+                <button class="btn-p btn-pulse">Get Your Free Quote</button>
+                <a href="tel:+15125550199" class="btn-s" style="gap:.5rem">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                    </svg>
+                    (512) 555-0199
+                </a>
+            </div>
+            <p class="hero-note">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    style="display:inline;vertical-align:middle;margin-right:.5rem">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                </svg>
+                Same-week availability · Free estimates · No upsell pressure
+            </p>
+        </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <section class="trust">
+        <div class="wrap">
+            <div class="trust-inner">
+                <div class="trust-item"><span class="star">★★★★★</span> <span style="font-weight:500">5.0 on
+                        Google</span></div>
+                <div class="trust-div"></div>
+                <div class="trust-item dim7"><span style="font-weight:500;color:#fff">115+</span> Verified Reviews</div>
+                <div class="trust-div"></div>
+                <div class="trust-item dim7"><svg class="star" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg> Licensed &amp; Insured</div>
+                <div class="trust-div"></div>
+                <div class="trust-item dim7">Family-Owned Since 2019</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="section reveal-section">
+        <div class="wrap">
+            <div style="margin-bottom:4rem;max-width:42rem">
+                <p class="micro" style="margin-bottom:1rem">Why Austin Chooses Us</p>
+                <h2 style="font-size:clamp(2rem,5vw,3.5rem);margin-bottom:1.5rem">Not All Detailers <br><span
+                        class="italic dim">Are Created Equal</span></h2>
+                <p class="dim" style="font-weight:300;line-height:1.7">Most shops spray your car with a hose and call it
+                    "detailing." We spend 6–8 hours per vehicle because that's what a real correction takes.</p>
+            </div>
+            <div class="grid3">
+                <div class="card glow-card">
+                    <div class="icon-circle"><svg class="gold" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7" />
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                        </svg></div>
+                    <h3 style="font-size:1.25rem;margin-bottom:.75rem">IDA-Certified Detailers</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.7">Every technician is International Detailing
+                        Association certified. We train 40+ hours before touching your car.</p>
+                </div>
+                <div class="card glow-card">
+                    <div class="icon-circle"><svg class="gold" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z" />
+                        </svg></div>
+                    <h3 style="font-size:1.25rem;margin-bottom:.75rem">Products You Can Trust</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.7">Gtechniq and Gyeon coatings only — the same
+                        brands used by dealerships on six-figure cars. No cheap shortcuts.</p>
+                </div>
+                <div class="card glow-card">
+                    <div class="icon-circle"><svg class="gold" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg></div>
+                    <h3 style="font-size:1.25rem;margin-bottom:.75rem">Results Guaranteed</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.7">Not happy? We'll redo it, free. Our ceramic
+                        coatings include a written 5-year warranty with every application.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section reveal-section" style="padding-top:0">
+        <div class="wrap">
+            <div
+                style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:2rem;margin-bottom:4rem">
+                <div>
+                    <p class="micro" style="margin-bottom:1rem">Packages &amp; Pricing</p>
+                    <h2 style="font-size:clamp(2rem,5vw,3.5rem)">Honest Pricing, <br><span class="italic dim">No
+                            Surprises</span></h2>
+                </div>
+                <p class="dim6" style="max-width:28rem;font-weight:300;line-height:1.7">Every price is final. No hidden
+                    fees, no upsells at the door. Pick your service and we'll take it from there.</p>
+            </div>
+            <div class="grid3">
+                <!-- Signature Detail -->
+                <div class="card glow-card" style="cursor:pointer">
+                    <h3 style="font-size:1.5rem;margin-bottom:.5rem">Signature Detail</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.6;margin-bottom:1.5rem">A full interior and
+                        exterior reset. Your car looks like you just drove it off the lot.</p>
+                    <p class="micro dim4">Starting at</p>
+                    <p style="font-size:1.875rem;font-weight:300;margin:.25rem 0 .25rem">$199</p>
+                    <p class="dim3" style="font-size:.75rem;margin-bottom:2rem"><svg width="12" height="12"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            style="display:inline;vertical-align:middle;margin-right:.25rem">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>3–4 hours</p>
+                    <ul class="check-list">
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Hand Wash &amp; Dry</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Clay Bar Treatment</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Interior Deep Clean</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Leather Conditioning</li>
+                    </ul>
+                    <button class="btn-s"
+                        style="width:100%;margin-top:1rem;padding:.875rem;font-size:.65rem;letter-spacing:.15em">Select
+                        Service</button>
+                </div>
+                <!-- Paint Correction -->
+                <div class="card glow-card" style="cursor:pointer">
+                    <h3 style="font-size:1.5rem;margin-bottom:.5rem">Paint Correction</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.6;margin-bottom:1.5rem">We remove the swirls
+                        and scratches that make your paint look dull — even under direct sunlight.</p>
+                    <p class="micro dim4">Starting at</p>
+                    <p style="font-size:1.875rem;font-weight:300;margin:.25rem 0 .25rem">$499</p>
+                    <p class="dim3" style="font-size:.75rem;margin-bottom:2rem"><svg width="12" height="12"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            style="display:inline;vertical-align:middle;margin-right:.25rem">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>6–8 hours</p>
+                    <ul class="check-list">
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Multi-Stage Machine Polish</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Scratch &amp; Swirl Removal</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Gloss Measurement Before/After</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Paint Depth Readings</li>
+                    </ul>
+                    <button class="btn-s"
+                        style="width:100%;margin-top:1rem;padding:.875rem;font-size:.65rem;letter-spacing:.15em">Select
+                        Service</button>
+                </div>
+                <!-- Ceramic Coating (Popular) -->
+                <div class="card-pop" style="cursor:pointer">
+                    <div class="badge">Most Popular</div>
+                    <h3 style="font-size:1.5rem;margin-bottom:.5rem">Ceramic Coating</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.6;margin-bottom:1.5rem">The last coating your
+                        car will ever need. 5 years of hydrophobic, UV-resistant, self-cleaning protection.</p>
+                    <p class="micro dim4">Starting at</p>
+                    <p style="font-size:1.875rem;font-weight:300;margin:.25rem 0 .25rem">$899</p>
+                    <p class="dim3" style="font-size:.75rem;margin-bottom:2rem"><svg width="12" height="12"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            style="display:inline;vertical-align:middle;margin-right:.25rem">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>1–2 days</p>
+                    <ul class="check-list">
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Gtechniq Crystal Serum</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> 5-Year Written Warranty</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> Extreme Hydrophobics</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg> UV &amp; Chemical Resistance</li>
+                    </ul>
+                    <button class="btn-p"
+                        style="width:100%;margin-top:1rem;padding:.875rem;font-size:.65rem;letter-spacing:.15em;background:var(--gold);color:var(--black);font-weight:700">Book
+                        This Package</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section reveal-section" style="background:var(--grey)">
+        <div class="wrap">
+            <div class="text-center" style="margin-bottom:4rem">
+                <p class="micro" style="margin-bottom:1rem">How It Works</p>
+                <h2 style="font-size:clamp(2rem,5vw,3.5rem)">Three Steps to <span class="italic dim">Showroom
+                        Finish</span></h2>
+            </div>
+            <div class="grid3" style="max-width:56rem;margin:0 auto">
+                <div style="text-align:center;padding:2rem">
+                    <div class="step-num">01</div>
+                    <h3 style="font-size:1.25rem;margin-bottom:.75rem">Inspect</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.7">We photograph every panel under LED
+                        correction lights and measure paint depth. You see exactly what we see.</p>
+                </div>
+                <div style="text-align:center;padding:2rem">
+                    <div class="step-num">02</div>
+                    <h3 style="font-size:1.25rem;margin-bottom:.75rem">Transform</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.7">Multi-stage machine polishing, hand
+                        correction on tight areas, and thorough decontamination of every surface.</p>
+                </div>
+                <div style="text-align:center;padding:2rem">
+                    <div class="step-num">03</div>
+                    <h3 style="font-size:1.25rem;margin-bottom:.75rem">Protect</h3>
+                    <p class="dim" style="font-size:.875rem;line-height:1.7">Ceramic coating is applied in a controlled
+                        environment. We cure it under infrared lamps. Then you drive away grinning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section reveal-section">
+        <div class="wrap">
+            <div style="margin-bottom:4rem">
+                <p class="micro" style="margin-bottom:1rem">What Our Customers Say</p>
+                <h2 style="font-size:clamp(2rem,5vw,3.5rem)">Don't Take Our <span class="italic dim">Word For It</span>
+                </h2>
+            </div>
+            <div class="grid3">
+                <div class="testi-card glow-card">
+                    <div style="margin-bottom:1.5rem"><span class="star">★★★★★</span></div>
+                    <p class="testi-quote">"I've been to three other detail shops in Austin. None of them come close. My
+                        Model 3 looks better than when I picked it up from the dealership."</p>
+                    <div class="testi-footer">
+                        <p style="font-weight:500;font-size:.875rem">Marcus T.</p>
+                        <p class="dim4" style="font-size:.75rem;margin-top:.25rem">Ceramic Coating — Tesla Model 3</p>
+                    </div>
+                </div>
+                <div class="testi-card glow-card">
+                    <div style="margin-bottom:1.5rem"><span class="star">★★★★★</span></div>
+                    <p class="testi-quote">"They spent 7 hours on my truck and sent me progress photos throughout the
+                        day. The swirl marks from my old wash are completely gone."</p>
+                    <div class="testi-footer">
+                        <p style="font-weight:500;font-size:.875rem">Jennifer R.</p>
+                        <p class="dim4" style="font-size:.75rem;margin-top:.25rem">Paint Correction — Ford F-150</p>
+                    </div>
+                </div>
+                <div class="testi-card glow-card">
+                    <div style="margin-bottom:1.5rem"><span class="star">★★★★★</span></div>
+                    <p class="testi-quote">"Booked online at 11pm on a Sunday, got a confirmation by Monday morning. The
+                        whole process was effortless. My wife's Lexus looks incredible."</p>
+                    <div class="testi-footer">
+                        <p style="font-weight:500;font-size:.875rem">David K.</p>
+                        <p class="dim4" style="font-size:.75rem;margin-top:.25rem">Signature Detail — Lexus RX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="section" id="booking" style="background:var(--grey)">
+        <div class="wrap" style="max-width:48rem">
+            <div class="booking-box">
+                <div class="booking-line"></div>
+                <p class="micro-gold" style="margin-bottom:1rem">Schedule Online</p>
+                <h2 style="font-size:clamp(1.5rem,4vw,2.5rem);margin-bottom:.5rem">Book in 60 Seconds</h2>
+                <p class="dim6" style="font-size:.875rem;margin-bottom:2.5rem">Pick a date. Pick a service. We handle
+                    the rest. Free cancellation anytime.</p>
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label class="micro" style="margin-bottom:.75rem;display:block">Your Name</label>
+                        <input class="form-input" type="text" placeholder="Full name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="micro" style="margin-bottom:.75rem;display:block">Service</label>
+                            <select class="form-input">
+                                <option value="">Select a service</option>
+                                <option>Signature Detail — $199</option>
+                                <option>Paint Correction — $499</option>
+                                <option>Ceramic Coating — $899</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="micro" style="margin-bottom:.75rem;display:block">Preferred Date</label>
+                            <input class="form-input" type="date" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="micro" style="margin-bottom:.75rem;display:block">Phone Number</label>
+                        <input class="form-input" type="tel" placeholder="(512) 555-0100" required>
+                    </div>
+                    <button type="submit" class="btn-p" style="width:100%;margin-top:.5rem;height:3.5rem">Get My Quote
+                        →</button>
+                </form>
+                <p class="dim4 text-center" style="font-size:.75rem;margin-top:1.5rem">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        style="display:inline;vertical-align:middle;margin-right:.25rem">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                    Your info is never shared. We respond within 2 hours.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BEFORE / AFTER -->
+    <section class="section">
+        <div class="wrap">
+            <div style="margin-bottom:4rem">
+                <p class="micro" style="margin-bottom:1rem">Results Speak Louder</p>
+                <h2 style="font-size:clamp(2rem,5vw,3.5rem)">Before &amp; <span class="italic dim">After</span></h2>
+            </div>
+            <div class="grid2">
+                <div class="ba-card">
+                    <img src="images/before-exterior.png"
+                        alt="Dark car hood with heavy swirl marks and scratches under shop lighting" loading="lazy"
+                        width="800" height="800">
+                    <span class="ba-label ba-before">Before</span>
+                    <span class="ba-tag">Swirl marks &amp; oxidation</span>
+                </div>
+                <div class="ba-card">
+                    <img src="images/after-exterior.png"
+                        alt="Same dark car hood with mirror-perfect reflection after paint correction and ceramic coating"
+                        loading="lazy" width="800" height="800">
+                    <span class="ba-label ba-after">After</span>
+                    <span class="ba-tag">Paint correction + ceramic</span>
+                </div>
+                <div class="ba-card">
+                    <img src="images/before-interior.png"
+                        alt="Tan leather car seats with stains, crumbs, and dirty surfaces before interior detailing"
+                        loading="lazy" width="800" height="800">
+                    <span class="ba-label ba-before">Before</span>
+                    <span class="ba-tag">Stained leather seats</span>
+                </div>
+                <div class="ba-card">
+                    <img src="images/after-interior.png"
+                        alt="Same tan leather car seats clean and conditioned after full interior restoration"
+                        loading="lazy" width="800" height="800">
+                    <span class="ba-label ba-after">After</span>
+                    <span class="ba-tag">Full interior restoration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE AREA -->
+    <section class="section" style="background:var(--grey)">
+        <div class="wrap text-center" style="max-width:48rem">
+            <p class="micro" style="margin-bottom:1rem">Built for Austin</p>
+            <h2 style="font-size:clamp(2rem,5vw,3.5rem);margin-bottom:1rem">Proudly Serving <span
+                    class="italic dim">Greater Austin</span></h2>
+            <p class="dim" style="font-size:.875rem;line-height:1.7;margin-bottom:3rem">We're based in North Austin and
+                serve the entire metro. Same-week availability for all neighborhoods below.</p>
+            <div class="area-grid">
+                <div class="area-chip">North Austin</div>
+                <div class="area-chip">Downtown</div>
+                <div class="area-chip">Cedar Park</div>
+                <div class="area-chip">Round Rock</div>
+                <div class="area-chip">Lakeway</div>
+                <div class="area-chip">West Lake Hills</div>
+                <div class="area-chip">Pflugerville</div>
+                <div class="area-chip">Georgetown</div>
+                <div class="area-chip">Bee Cave</div>
+                <div class="area-chip">Dripping Springs</div>
+                <div class="area-chip">Kyle</div>
+                <div class="area-chip">Buda</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <h3 style="font-size:1.5rem;margin-bottom:.5rem">Austin Auto Spa</h3>
+                    <p class="dim6" style="font-size:.875rem;line-height:1.7;max-width:24rem;margin-bottom:1.5rem">
+                        Premium auto detailing, paint correction, and ceramic coating in Austin, Texas. Every service
+                        backed by our 5-Year Warranty.</p>
+                    <p class="dim4" style="font-size:.875rem;line-height:1.7">
+                        123 Detail Lane, Suite 4<br>Austin, TX 78758
+                    </p>
+                </div>
+                <div>
+                    <p class="micro" style="margin-bottom:1.5rem">Quick Links</p>
+                    <ul style="font-size:.875rem;line-height:2.5">
+                        <li><a href="#" class="dim6" style="transition:color .2s" onmouseover="this.style.color='#fff'"
+                                onmouseout="this.style.color=''">Services</a></li>
+                        <li><a href="#booking" class="dim6" style="transition:color .2s"
+                                onmouseover="this.style.color='#fff'" onmouseout="this.style.color=''">Book Now</a></li>
+                        <li><a href="#" class="dim6" style="transition:color .2s" onmouseover="this.style.color='#fff'"
+                                onmouseout="this.style.color=''">Gallery</a></li>
+                        <li><a href="#" class="dim6" style="transition:color .2s" onmouseover="this.style.color='#fff'"
+                                onmouseout="this.style.color=''">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="micro" style="margin-bottom:1.5rem">Contact</p>
+                    <ul style="font-size:.875rem;line-height:2.5">
+                        <li><a href="tel:+15125550199" class="dim6" style="transition:color .2s"
+                                onmouseover="this.style.color='#fff'" onmouseout="this.style.color=''">(512)
+                                555-0199</a></li>
+                        <li><a href="mailto:hello@austinautospa.com" class="dim6" style="transition:color .2s"
+                                onmouseover="this.style.color='#fff'"
+                                onmouseout="this.style.color=''">hello@austinautospa.com</a></li>
+                        <li class="dim6">Mon–Sat: 8am – 6pm</li>
+                        <li class="dim6">Sunday: By Appointment</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Austin Auto Spa. All rights reserved.</p>
+                <div style="display:flex;gap:1.5rem">
+                    <a href="#" class="dim4" style="transition:color .2s" onmouseover="this.style.color='#fff'"
+                        onmouseout="this.style.color=''">Privacy Policy</a>
+                    <a href="#" class="dim4" style="transition:color .2s" onmouseover="this.style.color='#fff'"
+                        onmouseout="this.style.color=''">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY MOBILE CTA -->
+    <div class="sticky-cta">
+        <a href="#booking" class="btn-p" style="text-decoration:none">Book Now</a>
+        <a href="tel:+15125550199" class="btn-s" style="text-decoration:none">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+            </svg>
+            Call
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // ═══════════════════════════════════════
+        // 21st.dev-Inspired Premium Effects
+        // ═══════════════════════════════════════
+
+        // 1. IMMERSE TEXT — Staggered blur-to-sharp character reveal
+        document.querySelectorAll('.immerse-line').forEach(el => {
+            const text = el.getAttribute('data-text') || '';
+            const delay = parseFloat(el.getAttribute('data-delay') || '0');
+            text.split('').forEach((char, i) => {
+                const span = document.createElement('span');
+                span.className = 'immerse-char';
+                span.style.animationDelay = (delay + i * 0.04) + 's';
+                span.textContent = char === ' ' ? '\u00A0' : char;
+                el.appendChild(span);
+            });
+        });
+
+        // 2. PARALLAX HERO — Subtle depth on scroll
+        const heroBg = document.getElementById('hero-bg-img');
+        if (heroBg && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            let ticking = false;
+            window.addEventListener('scroll', () => {
+                if (!ticking) {
+                    requestAnimationFrame(() => {
+                        const y = window.scrollY;
+                        heroBg.style.transform = 'scale(1.1) translateY(' + (y * 0.3) + 'px)';
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            }, { passive: true });
+        }
+
+        // 3. SCROLL REVEAL — IntersectionObserver for sections
+        const revealObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('revealed');
+                    revealObs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal-section').forEach(el => revealObs.observe(el));
+
+        // 4. CARD FADE-IN — Lightweight stagger for cards
+        const cardObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.style.opacity = '1';
+                    e.target.style.transform = 'translateY(0)';
+                    cardObs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.card,.card-pop,.testi-card,.ba-card,.area-chip').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity .6s ease, transform .6s ease';
+            cardObs.observe(el);
+        });
+
+        // 5. Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                const t = document.querySelector(a.getAttribute('href'));
+                if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        // 6. Booking form handler
+        document.getElementById('bookingForm')?.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            const orig = btn.textContent;
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.textContent = '\u2713 Quote Requested!';
+                btn.style.background = '#c9b586';
+                btn.style.color = '#000';
+                setTimeout(() => { btn.textContent = orig; btn.disabled = false; btn.style.background = ''; btn.style.color = ''; }, 3000);
+            }, 1500);
+        });
+    </script>
+
+</body>
+
+</html>
