@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#08080B">
+
+    <title id="meta-title">Loading…</title>
+    <meta name="description" content="" id="meta-description">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="" id="og-title">
+    <meta property="og:description" content="" id="og-description">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://videos.pexels.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- ─── Navbar ─── -->
+    <nav class="navbar" aria-label="Primary">
+        <div class="container nav-inner">
+            <a href="#top" class="brand" aria-label="Back to top">
+                <span class="brand-mark" id="nav-logo">—</span>
+                <span class="brand-sep" aria-hidden="true">·</span>
+                <span class="brand-name" id="nav-name">—</span>
+            </a>
+            <ul class="nav-links" role="list">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-sm" id="nav-cta">Book Now</a>
+            <button type="button" class="hamburger" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mobile-menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-primary">Book Now</a>
+    </div>
+
+    <main id="main-content" tabindex="-1">
+        <span id="top" aria-hidden="true"></span>
+
+        <!-- ─── Hero ─── -->
+        <section class="hero" aria-labelledby="hero-headline">
+            <div class="hero-video-wrap" aria-hidden="true">
+                <video id="hero-video" class="hero-video" muted playsinline preload="auto" poster=""
+                    disablepictureinpicture disableremoteplayback></video>
+                <div class="hero-scrim"></div>
+            </div>
+
+            <div class="container hero-inner">
+                <div class="hero-trust" id="hero-trust">
+                    <span class="stars" aria-hidden="true">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </span>
+                    <span id="hero-trust-text">Rated 5.0 by locals</span>
+                </div>
+
+                <h1 id="hero-headline" class="hero-headline">Headline…</h1>
+                <p id="hero-subheadline" class="hero-subheadline">Subhead…</p>
+
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn btn-primary btn-lg" id="hero-cta">Get Started</a>
+                    <a href="#services" class="btn btn-ghost btn-lg" id="hero-cta-secondary">View Services</a>
+                </div>
+            </div>
+
+            <div class="scroll-hint" aria-hidden="true">
+                <span>Scroll</span>
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </section>
+
+        <!-- ─── Kinetic marquee band ─── -->
+        <section class="marquee-band" aria-hidden="true">
+            <div class="marquee-row" id="marquee-row">
+                <!-- items injected by JS -->
+            </div>
+        </section>
+
+        <!-- ─── Features ─── -->
+        <section id="features" class="section features" aria-labelledby="features-heading">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">01 — Why us</span>
+                    <h2 id="features-heading" class="section-title">Premium. Mobile. Guaranteed.</h2>
+                </header>
+                <div class="features-grid" id="features-grid" role="list"></div>
+            </div>
+        </section>
+
+        <!-- ─── Services (sticky stack) ─── -->
+        <section id="services" class="section services-section" aria-labelledby="services-heading">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">02 — Services</span>
+                    <h2 id="services-heading" class="section-title">The full package.</h2>
+                </header>
+                <div class="service-stack" id="service-stack"></div>
+            </div>
+        </section>
+
+        <!-- ─── Trust numbers strip ─── -->
+        <section class="stats-strip" aria-label="Key numbers">
+            <div class="container stats-grid" id="stats-grid"></div>
+        </section>
+
+        <!-- ─── Reviews ─── -->
+        <section id="reviews" class="section reviews-section" aria-labelledby="reviews-heading">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">03 — What clients say</span>
+                    <h2 id="reviews-heading" class="section-title">Don't take our word for it.</h2>
+                </header>
+                <div class="reviews-grid" id="reviews-grid"></div>
+            </div>
+        </section>
+
+        <!-- ─── Gallery ─── -->
+        <section id="gallery" class="section gallery-section" aria-labelledby="gallery-heading">
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">04 — Recent work</span>
+                    <h2 id="gallery-heading" class="section-title">Every car, a statement.</h2>
+                </header>
+                <div class="gallery-grid" id="gallery-grid"></div>
+            </div>
+        </section>
+
+        <!-- ─── FAQ ─── -->
+        <section id="faq" class="section faq-section" aria-labelledby="faq-heading">
+            <div class="container narrow">
+                <header class="section-header">
+                    <span class="eyebrow">05 — Common questions</span>
+                    <h2 id="faq-heading" class="section-title">Asked &amp; answered.</h2>
+                </header>
+                <div class="faq-list" id="faq-grid"></div>
+            </div>
+        </section>
+
+        <!-- ─── Booking (optional) ─── -->
+        <section id="booking" class="section booking-section" aria-labelledby="booking-heading" hidden>
+            <div class="container">
+                <header class="section-header">
+                    <span class="eyebrow">06 — Book online</span>
+                    <h2 id="booking-heading" class="section-title">Pick a slot. We'll handle the rest.</h2>
+                </header>
+                <div class="booking-embed">
+                    <iframe id="booking-frame" src="" title="Online booking widget" loading="lazy"
+                        width="100%" height="640"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- ─── Contact ─── -->
+        <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+            <div class="container contact-grid">
+                <div>
+                    <span class="eyebrow">07 — Get in touch</span>
+                    <h2 id="contact-heading" class="section-title">Ready when you are.</h2>
+                    <p class="contact-lede" id="contact-lede">Contact us for a free quote or to book your first service.</p>
+                    <ul class="contact-list" role="list">
+                        <li><i class="fas fa-phone" aria-hidden="true"></i><a id="contact-phone" href="#">—</a></li>
+                        <li><i class="fas fa-envelope" aria-hidden="true"></i><a id="contact-email" href="#">—</a></li>
+                        <li><i class="fas fa-location-dot" aria-hidden="true"></i><span id="contact-address">—</span></li>
+                    </ul>
+                </div>
+                <div class="contact-map">
+                    <iframe id="contact-map-frame" src="" title="Location map" loading="lazy"
+                        width="100%" height="360" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ─── Sticky mobile CTA bar ─── -->
+    <div class="mobile-cta-bar" aria-label="Quick actions">
+        <a href="#" id="mobile-bar-call" class="btn btn-ghost"><i class="fas fa-phone" aria-hidden="true"></i> Call</a>
+        <a href="#booking" id="mobile-bar-book" class="btn btn-primary"><i class="far fa-calendar" aria-hidden="true"></i> Book</a>
+    </div>
+
+    <!-- ─── Footer ─── -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="brand-mark" id="footer-logo">—</span>
+                <span id="footer-name">—</span>
+            </div>
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="#services">Services</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <p class="footer-credit">
+                &copy; <span id="year"></span> <span id="footer-name-2">—</span>. Website by
+                <a href="https://psio.io" target="_blank" rel="noopener">Psio</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

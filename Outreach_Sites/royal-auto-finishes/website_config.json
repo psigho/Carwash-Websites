@@ -1,0 +1,145 @@
+{
+    "meta": {
+        "title": "Royal Auto Finishes | Premium Auto Detailing & Ceramic Coating Austin TX",
+        "description": "5-star rated premium auto detailing in Austin. Ceramic coatings, paint correction, and flawless finishes. Book with Royal Auto Finishes — (512) 888-9949."
+    },
+    "branding": {
+        "name": "Royal Auto Finishes",
+        "primary_color": "#C9A961",
+        "secondary_color": "#0B0B0F",
+        "accent_color": "#1E1E24",
+        "logo_text": "RAF",
+        "font_heading": "'Inter', sans-serif",
+        "font_body": "'Roboto', sans-serif"
+    },
+    "contact": {
+        "phone": "(512) 888-9949",
+        "email": "contact@royal-auto-finishes.com",
+        "address": "5214 Burleson Rd Suite 412, Austin, TX 78744",
+        "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13784.123456789!2d-97.7154!3d30.1993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRoyal%20Auto%20Finishes!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus",
+        "booking_embed_url": ""
+    },
+    "trust_signals": {
+        "rating": "5.0",
+        "review_count": "50+",
+        "display_text": "Rated 5.0 by 50+ Austin drivers"
+    },
+    "hero": {
+        "headline": "Your car. Royally finished.",
+        "subheadline": "Ceramic coatings, paint correction, and concierge-grade detailing for Austin's most-loved vehicles. We come to you.",
+        "cta_text": "Book Your Detail",
+        "cta_link": "#contact",
+        "cta_secondary_text": "Call (512) 888-9949",
+        "cta_secondary_link": "tel:5128889949",
+        "video_url": "hero-scrub.mp4",
+        "video_poster": "",
+        "background_image": "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?q=80&w=2070&auto=format&fit=crop"
+    },
+    "features": [
+        {
+            "title": "Mobile Service",
+            "desc": "We detail at your home or office — no waiting rooms, no drop-offs.",
+            "icon": "fas fa-truck-pickup"
+        },
+        {
+            "title": "Ceramic Certified",
+            "desc": "Manufacturer-trained applicators. Up to 5-year paint protection warranties.",
+            "icon": "fas fa-shield-alt"
+        },
+        {
+            "title": "Royal Guarantee",
+            "desc": "If you're not thrilled, we're not done. Every detail backed 100%.",
+            "icon": "fas fa-crown"
+        }
+    ],
+    "services": [
+        {
+            "title": "Full Interior Detail",
+            "desc": "Deep steam extraction, leather conditioning, UV protection, odor elimination. Cabin restored to showroom.",
+            "price": "From $195",
+            "image": "https://images.unsplash.com/photo-1605218427306-722201920c7d?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+            "title": "Paint Correction + Wax",
+            "desc": "Two-stage machine polish removes swirls and holograms. Finished with premium carnauba for a mirror gloss.",
+            "price": "From $425",
+            "image": "https://images.unsplash.com/photo-1552930294-6b595f4c2974?q=80&w=2071&auto=format&fit=crop"
+        },
+        {
+            "title": "Ceramic Coating — 3 Year",
+            "desc": "9H-hardness nano-ceramic. Hydrophobic, UV-resistant, unbeatable depth. Backed by a 3-year warranty.",
+            "price": "From $899",
+            "image": "https://images.unsplash.com/photo-1607603750916-e4db45b7c5b7?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+            "title": "Ceramic Coating — 5 Year",
+            "desc": "Two-layer flagship protection. Includes paint correction prep, wheels, trim, and glass. Our royal standard.",
+            "price": "From $1,599",
+            "image": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=2071&auto=format&fit=crop"
+        },
+        {
+            "title": "Paint Protection Film",
+            "desc": "Self-healing clear bra on high-impact panels. Invisible protection against rock chips and scratches.",
+            "price": "From $1,200",
+            "image": "https://images.unsplash.com/photo-1600661653561-629509216228?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+            "title": "Maintenance Wash Plan",
+            "desc": "Keep your coating performing. Monthly hand wash, decon, and top-up spray. Priority booking.",
+            "price": "From $89/mo",
+            "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop"
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Marcus T.",
+            "text": "These guys did a 5-year ceramic on my F-150 and I honestly can't stop staring at it. Water beads off like magic. Worth every dollar.",
+            "stars": 5
+        },
+        {
+            "name": "Elena R.",
+            "text": "Booked the mobile interior detail. They showed up on time, brought their own water and power, and my Tesla looked brand new in three hours.",
+            "stars": 5
+        },
+        {
+            "name": "Jordan K.",
+            "text": "Paint correction on my older M3 was unreal. Swirls I'd lived with for years — gone. The team actually cares about the craft.",
+            "stars": 5
+        },
+        {
+            "name": "Priya S.",
+            "text": "Absolute professionals. Explained every step, sent photos while working, and the final result speaks for itself. Austin's best.",
+            "stars": 5
+        }
+    ],
+    "gallery": [
+        "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552930294-6b595f4c2974?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1605218427306-722201920c7d?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1607603750916-e4db45b7c5b7?q=80&w=800&auto=format&fit=crop"
+    ],
+    "faq": [
+        {
+            "question": "Do you come to me?",
+            "answer": "Yes. Our mobile team serves all of Austin and surrounding areas including Round Rock, Cedar Park, Pflugerville, and Buda. We bring water, power, and all materials."
+        },
+        {
+            "question": "How long does a ceramic coating take?",
+            "answer": "A standard 3-year coating is typically a 1-day job. The 5-year flagship with full paint correction is usually 2 days for flawless prep and curing."
+        },
+        {
+            "question": "What's the difference between a wax and a ceramic coating?",
+            "answer": "A wax lasts 2–3 months. A ceramic coating is a semi-permanent nano-bond that lasts 3–5 years, is far more hydrophobic, and resists UV, bird droppings, and light scratches."
+        },
+        {
+            "question": "How soon can I drive after a ceramic coating?",
+            "answer": "You can drive immediately. We recommend avoiding heavy rain or car washes for the first 7 days to let the coating fully cure."
+        },
+        {
+            "question": "Do you offer any warranty?",
+            "answer": "Yes — 3 or 5-year written warranty on our ceramic coatings, with an optional yearly inspection to keep it valid."
+        }
+    ]
+}

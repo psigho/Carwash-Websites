@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Gerber Precision Detailing | Premium Auto Detailing Austin TX",
+    "description": "NEEDS_EDIT \u2014 150-160 char description for Gerber Precision Detailing. Include rating, phone, and city."
+  },
+  "branding": {
+    "name": "Gerber Precision Detailing",
+    "primary_color": "#1e3a8a",
+    "secondary_color": "#0f172a",
+    "accent_color": "#f59e0b",
+    "logo_text": "GPD",
+    "font_heading": "'Inter', sans-serif",
+    "font_body": "'Roboto', sans-serif"
+  },
+  "contact": {
+    "phone": "(919) 418-5346",
+    "email": "info@gerber-precision-detailing.com",
+    "address": "Austin, TX (Mobile Service)",
+    "map_embed_url": "NEEDS_EDIT \u2014 get from Google Maps Share \u2192 Embed",
+    "booking_embed_url": ""
+  },
+  "trust_signals": {
+    "rating": "4.9",
+    "review_count": "50+",
+    "display_text": "Rated 4.9 by 50+ Austin locals"
+  },
+  "hero": {
+    "headline": "NEEDS_EDIT \u2014 6-word hero for Gerber Precision Detailing",
+    "subheadline": "NEEDS_EDIT \u2014 15-25 word subheadline. What, for whom, why different.",
+    "cta_text": "Book Your Detail",
+    "cta_link": "#contact",
+    "cta_secondary_text": "Call (919) 418-5346",
+    "cta_secondary_link": "tel:9194185346",
+    "background_image": "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?q=80&w=2070&auto=format&fit=crop"
+  },
+  "features": [
+    {
+      "title": "Mobile Service",
+      "desc": "We come to you. No waiting rooms.",
+      "icon": "fas fa-truck-pickup"
+    },
+    {
+      "title": "Certified Technicians",
+      "desc": "Manufacturer-trained. Warranty-backed.",
+      "icon": "fas fa-shield-alt"
+    },
+    {
+      "title": "Satisfaction Guarantee",
+      "desc": "Not thrilled? We're not done.",
+      "icon": "fas fa-star"
+    }
+  ],
+  "services": [
+    {
+      "title": "Full Interior Detail",
+      "desc": "Deep steam extraction, leather conditioning, UV protection, odor elimination.",
+      "price": "From $195",
+      "image": "https://images.unsplash.com/photo-1605218427306-722201920c7d?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+      "title": "Paint Correction + Wax",
+      "desc": "Two-stage machine polish. Removes swirls and holograms. Finished with premium carnauba.",
+      "price": "From $425",
+      "image": "https://images.unsplash.com/photo-1552930294-6b595f4c2974?q=80&w=2071&auto=format&fit=crop"
+    },
+    {
+      "title": "Ceramic Coating \u2014 3 Year",
+      "desc": "9H-hardness nano-ceramic. Hydrophobic, UV-resistant. Backed by a 3-year warranty.",
+      "price": "From $899",
+      "image": "https://images.unsplash.com/photo-1607603750916-e4db45b7c5b7?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+      "title": "Ceramic Coating \u2014 5 Year",
+      "desc": "Two-layer flagship. Includes paint correction prep, wheels, trim, glass.",
+      "price": "From $1,599",
+      "image": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=2071&auto=format&fit=crop"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "NEEDS_EDIT \u2014 Marcus T.",
+      "text": "Swap for a real scraped review or a niche-template one from HEURISTICS.md.",
+      "stars": 5
+    },
+    {
+      "name": "NEEDS_EDIT \u2014 Elena R.",
+      "text": "Swap for a real scraped review or a niche-template one from HEURISTICS.md.",
+      "stars": 5
+    },
+    {
+      "name": "NEEDS_EDIT \u2014 Jordan K.",
+      "text": "Swap for a real scraped review or a niche-template one from HEURISTICS.md.",
+      "stars": 5
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1552930294-6b595f4c2974?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1605218427306-722201920c7d?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1607603750916-e4db45b7c5b7?q=80&w=800&auto=format&fit=crop"
+  ],
+  "faq": [
+    {
+      "question": "Do you come to me?",
+      "answer": "Yes \u2014 our mobile team serves all of Austin and surrounding areas. We bring water, power, and all materials."
+    },
+    {
+      "question": "How long does a ceramic coating take?",
+      "answer": "A 3-year coating is a 1-day job. The 5-year with paint correction is typically 2 days for proper curing."
+    },
+    {
+      "question": "Do you offer a warranty?",
+      "answer": "Yes \u2014 3 or 5-year written warranty on ceramic coatings with optional yearly inspection."
+    }
+  ]
+}

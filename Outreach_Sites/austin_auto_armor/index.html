@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta title and description will be injected -->
+    <title id="meta-title">Loading...</title>
+    <meta name="description" content="" id="meta-description">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo" id="nav-logo">Logo</a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#contact" class="btn is-primary is-small" id="nav-cta">Call Now</a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#features">Features</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn is-primary" id="mobile-cta">Call Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-trust">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <span id="hero-trust-text">Rated 5.0 by Locals</span>
+            </div>
+            <h1 id="hero-headline">Headline goes here</h1>
+            <p id="hero-subheadline">Subheadline goes here</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn is-primary is-large" id="hero-cta">Get Started</a>
+                <a href="#services" class="btn is-secondary is-large" id="hero-cta-secondary">View Services</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <div class="features-grid" id="features-grid">
+                <!-- Features injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid" id="services-grid">
+                <!-- Services injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews / Social Proof -->
+    <section id="reviews" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="reviews-grid" id="reviews-grid">
+                <!-- Reviews injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Work</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Gallery items injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="faq-grid" id="faq-grid">
+                <!-- FAQ items injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Online</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="booking-embed">
+                <iframe id="booking-frame" src="" width="100%" height="600" title="Online Booking Widget"
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Section -->
+    <section id="contact" class="section bg-dark text-white">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2 id="contact-headline">Ready for a Shine?</h2>
+                <p>Contact us today for a free quote or to schedule your service.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="#" id="contact-phone">(555) 123-4567</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="#" id="contact-email">info@example.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="contact-address">City, State</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-map">
+                <iframe id="contact-map-frame" src="" width="100%" height="300" title="Location Map" allowfullscreen=""
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile CTA Bar -->
+    <div class="mobile-cta-bar">
+        <a href="tel:5551234567" class="btn is-secondary" id="mobile-bar-call"><i class="fas fa-phone"></i> Call Now</a>
+        <a href="#booking" class="btn is-primary" id="mobile-bar-book"><i class="far fa-calendar-alt"></i> Book
+            Online</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 id="footer-logo">Logo</h3>
+                    <p class="copyright">&copy; <span id="year"></span> <span id="footer-name">Business Name</span>. All
+                        rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-credit">
+                <p>Website Design by <a href="https://psio.io" target="_blank" rel="noopener">Psio</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

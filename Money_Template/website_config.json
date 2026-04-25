@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Best Auto Detailing in Austin | Austin Auto Spa",
+        "description": "Top-rated mobile auto detailing in Austin, TX. We come to you! Call (512) 555-0123 for a free quote today."
+    },
+    "branding": {
+        "name": "Austin Auto Spa",
+        "primary_color": "#2563eb",
+        "secondary_color": "#1e40af",
+        "accent_color": "#facc15",
+        "logo_text": "AAS",
+        "font_heading": "'Inter', sans-serif",
+        "font_body": "'Roboto', sans-serif"
+    },
+    "contact": {
+        "phone": "(512) 555-0123",
+        "email": "info@austinautospa.com",
+        "address": "Austin, TX (Mobile Service)",
+        "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220399.8054904838!2d-97.89348632646698!3d30.30768631127027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1708450123456!5m2!1sen!2sus",
+        "booking_embed_url": "https://squareup.com/appointments/book/example/book"
+    },
+    "trust_signals": {
+        "rating": "5.0",
+        "review_count": "100+",
+        "display_text": "Rated 5.0 by 100+ Locals"
+    },
+    "hero": {
+        "headline": "Premium Mobile Auto Detailing in Austin",
+        "subheadline": "We bring usage-grade detailing to your driveway. 500+ happy customers.",
+        "cta_text": "Get a Free Quote",
+        "cta_link": "#contact",
+        "cta_secondary_text": "Call Now",
+        "cta_secondary_link": "tel:5125550123",
+        "background_image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop"
+    },
+    "features": [
+        {
+            "title": "Mobile Service",
+            "desc": "We come to your home or office. No waiting in line.",
+            "icon": "fas fa-truck-pickup"
+        },
+        {
+            "title": "Eco-Friendly",
+            "desc": "Water-saving techniques and biodegradable products.",
+            "icon": "fas fa-leaf"
+        },
+        {
+            "title": "Satisfaction Guaranteed",
+            "desc": "We don't leave until you're 100% happy with the shine.",
+            "icon": "fas fa-star"
+        }
+    ],
+    "services": [
+        {
+            "title": "Interior Detail",
+            "desc": "Deep steam cleaning for carpets, seats, and mats. Leather conditioning and odor removal.",
+            "price": "From $150",
+            "image": "https://images.unsplash.com/photo-1605218427306-722201920c7d?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+            "title": "Exterior Wash & Wax",
+            "desc": "Hand wash, clay bar treatment, and premium carnauba wax for a mirror finish.",
+            "price": "From $120",
+            "image": "https://images.unsplash.com/photo-1552930294-6b595f4c2974?q=80&w=2071&auto=format&fit=crop"
+        },
+        {
+            "title": "Full Ceramic Coating",
+            "desc": "Ultimate protection for your paint. Repels dirt and water for up to 3 years.",
+            "price": "From $600",
+            "image": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=2071&auto=format&fit=crop"
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Sarah Jenkins",
+            "text": "Best car wash I've ever had. They got stains out of my seats that had been there for years!",
+            "stars": 5
+        },
+        {
+            "name": "Mike Ross",
+            "text": "Super convenient. I was working from home while they detailed my truck in the driveway. Looks brand new.",
+            "stars": 5
+        },
+        {
+            "name": "Emily Chen",
+            "text": "Professional, on time, and great communication. Highly recommend Austin Auto Spa.",
+            "stars": 5
+        }
+    ],
+    "gallery": [
+        "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552930294-6b595f4c2974?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1605218427306-722201920c7d?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=600&auto=format&fit=crop"
+    ],
+    "faq": [
+        {
+            "question": "Do I need to be home?",
+            "answer": "No, as long as we have access to the vehicle and keys if interior detail is needed."
+        },
+        {
+            "question": "Do you need water or power?",
+            "answer": "We carry our own water and power, but access to an outlet is helpful for heavy-duty equipment."
+        },
+        {
+            "question": "What areas do you serve?",
+            "answer": "We serve all of Austin and surrounding areas including Round Rock, Cedar Park, and Pflugerville."
+        }
+    ]
+}
